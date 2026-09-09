@@ -8,10 +8,11 @@ class Solution:
             p=pattern[i]
             word=words[i]
             if p in freq:
-                if freq[p]!=word:
+                 if freq[p]!=word:
                     return False
             else:
                 if word in freq.values():
                     return False
             freq[p]=word
         return True
+
