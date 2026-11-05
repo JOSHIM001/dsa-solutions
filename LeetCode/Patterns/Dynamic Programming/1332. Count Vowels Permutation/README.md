@@ -8,8 +8,8 @@
 Dynamic Programming
 
 ### 🚀 Performance
-- **Runtime:** 217 ms
-- **Memory:** 24.1 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
