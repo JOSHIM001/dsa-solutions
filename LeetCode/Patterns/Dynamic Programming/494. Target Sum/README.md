@@ -1,6 +1,6 @@
 # 📝 494. Target Sum (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/target-sum)
+🔗 [Problem Link](https://leetcode.com/problems/target-sum/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Python-blue)
 
@@ -8,8 +8,8 @@
 Array, Dynamic Programming, Backtracking, Knapsack Problem, 0-1 Knapsack
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 200 ms
+- **Memory:** 73.8 MB
 
 ---
 
