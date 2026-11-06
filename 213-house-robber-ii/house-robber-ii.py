@@ -13,4 +13,4 @@ class Solution:
             for i in range(2,m):
                 dp[i]=max(dp[i-1],dp[i-2]+arr[i])
             return dp[m-1]
-        return max(solve(nums[1:]),solve(nums[:n-1]))
+        return max(solve(nums[1:]), solve(nums[:n-1]))
