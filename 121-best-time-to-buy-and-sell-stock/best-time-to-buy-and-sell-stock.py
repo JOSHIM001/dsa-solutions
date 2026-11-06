@@ -3,7 +3,7 @@ class Solution:
         min_price=float('inf')
         max_profit=float('-inf')
         for price in prices:
-            min_price=min(min_price,price)
+            min_price=min(price,min_price)
             profit=price-min_price
             max_profit=max(profit,max_profit)
         return max_profit
