@@ -6,7 +6,7 @@ class Solution:
                 return 1 if total==target else 0
             if (i,total) in dp:
                 return dp[(i,total)]
-            dp[(i,total)]=(back(i+1,total-nums[i]))+(back(i+1,total+nums[i]))
+            dp[(i,total)]=(back(i+1,total+nums[i])+back(i+1,total-nums[i]))
             return dp[(i,total)]
         return back(0,0)
         
