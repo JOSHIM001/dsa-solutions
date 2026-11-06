@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 6 / 150 (4.0%)
+- **Completed:** 7 / 150 (4.7%)
 
 ---
 
@@ -127,7 +127,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [x] [Climbing Stairs](./Python/Easy/70. Climbing Stairs/)
 - [ ] Min Cost Climbing Stairs
 - [x] [House Robber](./Python/Medium/198. House Robber/)
-- [ ] House Robber II
+- [x] [House Robber II](./Python/Medium/213. House Robber II/)
 - [ ] Longest Palindromic Substring
 - [ ] Palindromic Substrings
 - [ ] Decode Ways
