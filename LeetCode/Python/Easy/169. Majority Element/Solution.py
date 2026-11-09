@@ -1,12 +1,13 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
+        #boyer moores algo
+        cand=None
         count=0
-        cand=0
         for num in nums:
-            if count==0:
+            if count ==0:
+                count+=1
                 cand=num
-                count=1
-            elif cand==num:
+            elif num==cand:
                 count+=1
             else:
                 count-=1
