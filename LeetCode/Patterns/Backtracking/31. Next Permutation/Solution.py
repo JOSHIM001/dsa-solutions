@@ -9,7 +9,7 @@ class Solution:
             i-=1
         if i>=0:
             j=n-1
-            if nums[j]<=nums[i]:
+            while nums[j]<=nums[i]:
                 j-=1
             nums[j],nums[i]=nums[i],nums[j]
         left=i+1
